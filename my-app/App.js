@@ -6,7 +6,7 @@ const PlaceholderImage = require('./assets/background-image.png');
 export default function App() {
   return (
     <View style={styles.container}>
-      <View style={styles.container}>
+      <View style={styles.imageContainer}>
         <Image source={PlaceholderImage} style={styles.image} />
       </View>
       <Text style={{ color: '#fff' }}>Hello you ^^</Text>
